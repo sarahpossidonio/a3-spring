@@ -40,9 +40,9 @@ public class Veiculo {
     }
 
 
-    public double calcularCustoAlimentacao(int quantidadeParada, int quantidadePessoas) {
+    public double calcularCustoAlimentacao(int quantidadeParada, int quantidadePessoas, double qtdAlimentacao) {
         double custoTotalAlimentacao = 0.0;
-        custoTotalAlimentacao += (20.0 * quantidadeParada * quantidadePessoas);
+        custoTotalAlimentacao += (qtdAlimentacao * quantidadeParada * quantidadePessoas);
         return custoTotalAlimentacao;
     }
 

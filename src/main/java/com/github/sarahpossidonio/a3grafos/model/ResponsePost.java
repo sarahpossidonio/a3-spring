@@ -8,7 +8,7 @@ public class ResponsePost {
     private String tempo;
     private double combustivel;
     private Integer paradas;
-    private double alimentação;
+    private double alimentacao;
     private List<Municipio> listaCaminho;
 
     public ResponsePost() {
@@ -46,12 +46,12 @@ public class ResponsePost {
         this.paradas = paradas;
     }
 
-    public double getAlimentação() {
-        return alimentação;
+    public double getAlimentacao() {
+        return alimentacao;
     }
 
-    public void setAlimentação(double alimentação) {
-        this.alimentação = alimentação;
+    public void setAlimentacao(double alimentacao) {
+        this.alimentacao = alimentacao;
     }
     
     public List<Municipio> getListaCaminho() {
